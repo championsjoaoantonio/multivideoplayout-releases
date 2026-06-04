@@ -4,37 +4,30 @@
   "product_id": "multivideoplayout",
   "product_name": "Multivideo Playout",
   "version": "0.1.0",
-  "release_id": "20260604-clean-windows-installer-playout",
+  "release_id": "20260604-operator-panel-polish-playout",
   "release_channel": "stable",
   "platform": "windows-x64",
-  "generated_at": "2026-06-04T15:41:27.2780508Z",
-  "git_commit": "89f147261216a562517f393584de3e87f9dbb4ed",
-  "package_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-clean-windows-installer-playout/multivideo-playout-runtime-20260604-clean-windows-installer-playout-windows-x64.zip",
-  "package_sha256": "acb31c284bf7d5fa6e6c9051789934aa24d3dd89ae33f67f50e307ea5f556e1b",
+  "generated_at": "2026-06-04T15:02:35.4932324Z",
+  "git_commit": "490cdc3ce920bdac1edb7267fbaa1e33b5fdaed5",
+  "package_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-operator-panel-polish-playout/multivideo-playout-runtime-20260604-operator-panel-polish-playout-windows-x64.zip",
+  "package_sha256": "9db9611339a448066f80efb06c248cfe45a07392ededa4eb5d58b0025b554a4d",
   "archive": {
-    "file": "multivideo-playout-runtime-20260604-clean-windows-installer-playout-windows-x64.zip",
-    "sha256": "acb31c284bf7d5fa6e6c9051789934aa24d3dd89ae33f67f50e307ea5f556e1b",
-    "size_bytes": 11399670,
+    "file": "multivideo-playout-runtime-20260604-operator-panel-polish-playout-windows-x64.zip",
+    "sha256": "9db9611339a448066f80efb06c248cfe45a07392ededa4eb5d58b0025b554a4d",
+    "size_bytes": 11397131,
     "type": "runtime-zip",
-    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-clean-windows-installer-playout/multivideo-playout-runtime-20260604-clean-windows-installer-playout-windows-x64.zip"
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-operator-panel-polish-playout/multivideo-playout-runtime-20260604-operator-panel-polish-playout-windows-x64.zip"
   },
   "installer": {
-    "file": "multivideo-playout-setup-20260604-clean-windows-installer-playout-windows-x64.exe",
-    "type": "bootstrap-runtime-panel",
-    "sha256": "9e53daaa00dd6f4f3e8a27d4853f35e56931bbb8708dad0e7d4c64b80e748c14",
-    "size_bytes": 8798208,
-    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-clean-windows-installer-playout/multivideo-playout-setup-20260604-clean-windows-installer-playout-windows-x64.exe"
-  },
-  "panel_installer": {
-    "file": "multivideo-playout-panel-20260604-clean-windows-installer-playout-windows-x64-setup.exe",
+    "file": "multivideo-playout-panel-20260604-operator-panel-polish-playout-windows-x64-setup.exe",
     "type": "tauri-nsis",
-    "sha256": "93c0c056b8abc6634ff6d08e8d650a6aa0ad7c4f23c46ac52736652128a307be",
-    "size_bytes": 2235316,
-    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-clean-windows-installer-playout/multivideo-playout-panel-20260604-clean-windows-installer-playout-windows-x64-setup.exe"
+    "sha256": "026e517c06d1d1b98d58c8e4a441817704774a9020317ee8aed88cb625091e24",
+    "size_bytes": 2234219,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-operator-panel-polish-playout/multivideo-playout-panel-20260604-operator-panel-polish-playout-windows-x64-setup.exe"
   },
   "install": {
     "type": "windows-service-direct",
     "command": "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service."
   },
-  "source_manifest_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-clean-windows-installer-playout/20260604-clean-windows-installer-playout.json"
+  "source_manifest_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-operator-panel-polish-playout/20260604-operator-panel-polish-playout.json"
 }
