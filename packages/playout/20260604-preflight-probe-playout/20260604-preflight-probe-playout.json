@@ -1,0 +1,33 @@
+{
+  "schema_version": "multivideo.playout.release.v1",
+  "product_code": "PLAYOUT",
+  "product_id": "multivideoplayout",
+  "product_name": "Multivideo Playout",
+  "version": "0.1.0",
+  "release_id": "20260604-preflight-probe-playout",
+  "release_channel": "stable",
+  "platform": "windows-x64",
+  "generated_at": "2026-06-04T09:33:42.3185865Z",
+  "git_commit": "516e2e496028b238d7807bdaaec904fc2bf7b91a",
+  "package_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-preflight-probe-playout/multivideo-playout-runtime-20260604-preflight-probe-playout-windows-x64.zip",
+  "package_sha256": "7304903f7f26efba088262b896bf0156c6a6c7df670e6472b093c8533f544518",
+  "archive": {
+    "file": "multivideo-playout-runtime-20260604-preflight-probe-playout-windows-x64.zip",
+    "sha256": "7304903f7f26efba088262b896bf0156c6a6c7df670e6472b093c8533f544518",
+    "size_bytes": 10947442,
+    "type": "runtime-zip",
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-preflight-probe-playout/multivideo-playout-runtime-20260604-preflight-probe-playout-windows-x64.zip"
+  },
+  "installer": {
+    "file": "multivideo-playout-panel-20260604-preflight-probe-playout-windows-x64-setup.exe",
+    "type": "tauri-nsis",
+    "sha256": "f688cd56a914c2e119ef57be3791a74fda2272b9bfb18b58eccb422670c8e569",
+    "size_bytes": 2235334,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-preflight-probe-playout/multivideo-playout-panel-20260604-preflight-probe-playout-windows-x64-setup.exe"
+  },
+  "install": {
+    "type": "windows-service-direct",
+    "command": "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service."
+  },
+  "source_manifest_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260604-preflight-probe-playout/20260604-preflight-probe-playout.json"
+}
