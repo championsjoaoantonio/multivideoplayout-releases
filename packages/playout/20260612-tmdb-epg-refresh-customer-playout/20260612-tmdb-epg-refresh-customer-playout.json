@@ -1,0 +1,42 @@
+{
+  "schema_version": "multivideo.playout.release.v1",
+  "product_code": "PLAYOUT",
+  "product_id": "multivideoplayout",
+  "product_name": "Multivideo Playout",
+  "version": "0.1.7",
+  "release_id": "20260612-tmdb-epg-refresh-customer-playout",
+  "release_channel": "stable",
+  "platform": "windows-x64",
+  "generated_at": "2026-06-12T09:47:34.7400239Z",
+  "git_commit": "8e0c852ef2317e0930715111c437b50e9333e002",
+  "package_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260612-tmdb-epg-refresh-customer-playout/multivideo-playout-runtime-20260612-tmdb-epg-refresh-customer-playout-windows-x64.zip",
+  "package_sha256": "0380f7a207d08d59c8c2f290db85d66769b46a93915979027c88255cae2d9171",
+  "archive": {
+    "file": "multivideo-playout-runtime-20260612-tmdb-epg-refresh-customer-playout-windows-x64.zip",
+    "sha256": "0380f7a207d08d59c8c2f290db85d66769b46a93915979027c88255cae2d9171",
+    "size_bytes": 11570044,
+    "type": "runtime-zip",
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260612-tmdb-epg-refresh-customer-playout/multivideo-playout-runtime-20260612-tmdb-epg-refresh-customer-playout-windows-x64.zip"
+  },
+  "installer": {
+    "file": "multivideo-playout-setup-20260612-tmdb-epg-refresh-customer-playout-windows-x64.exe",
+    "type": "bootstrap-runtime-panel",
+    "sha256": "b3e7730c01629d2bcf422885ae014cb51e46be51a393640e9fa6cf0acac22738",
+    "size_bytes": 8990720,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260612-tmdb-epg-refresh-customer-playout/multivideo-playout-setup-20260612-tmdb-epg-refresh-customer-playout-windows-x64.exe"
+  },
+  "panel_installer": {
+    "file": "multivideo-playout-panel-20260612-tmdb-epg-refresh-customer-playout-windows-x64-setup.exe",
+    "type": "tauri-nsis",
+    "sha256": "ebea47a59775aad36c798613cb317bea15b14a24a653867f7fecc9b4fba8d94f",
+    "size_bytes": 2265010,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260612-tmdb-epg-refresh-customer-playout/multivideo-playout-panel-20260612-tmdb-epg-refresh-customer-playout-windows-x64-setup.exe"
+  },
+  "install": {
+    "type": "windows-service-direct",
+    "command": "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service.",
+    "control_plane_url": "https://license.vorbio.me",
+    "license_required": "true"
+  },
+  "source_manifest_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260612-tmdb-epg-refresh-customer-playout/20260612-tmdb-epg-refresh-customer-playout.json"
+}
