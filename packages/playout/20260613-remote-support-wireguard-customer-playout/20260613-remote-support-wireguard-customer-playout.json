@@ -1,0 +1,42 @@
+{
+  "schema_version": "multivideo.playout.release.v1",
+  "product_code": "PLAYOUT",
+  "product_id": "multivideoplayout",
+  "product_name": "Multivideo Playout",
+  "version": "0.1.18",
+  "release_id": "20260613-remote-support-wireguard-customer-playout",
+  "release_channel": "stable",
+  "platform": "windows-x64",
+  "generated_at": "2026-06-13T21:42:30.0481241Z",
+  "git_commit": "cb80e14fbde875773f2795aa1f3171c6b09872a5",
+  "package_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-remote-support-wireguard-customer-playout/multivideo-playout-runtime-20260613-remote-support-wireguard-customer-playout-windows-x64.zip",
+  "package_sha256": "84b24b86e3bb0d54ae653a832f17fe859bfb0dc52c7fb69de537523c85408710",
+  "archive": {
+    "file": "multivideo-playout-runtime-20260613-remote-support-wireguard-customer-playout-windows-x64.zip",
+    "sha256": "84b24b86e3bb0d54ae653a832f17fe859bfb0dc52c7fb69de537523c85408710",
+    "size_bytes": 14572321,
+    "type": "runtime-zip",
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-remote-support-wireguard-customer-playout/multivideo-playout-runtime-20260613-remote-support-wireguard-customer-playout-windows-x64.zip"
+  },
+  "installer": {
+    "file": "multivideo-playout-setup-20260613-remote-support-wireguard-customer-playout-windows-x64.exe",
+    "type": "bootstrap-runtime-panel",
+    "sha256": "00e30f8b7a1e739c082c6b10b7449bf6fe5e658a79a3348d58c81afb6c5851aa",
+    "size_bytes": 9068544,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-remote-support-wireguard-customer-playout/multivideo-playout-setup-20260613-remote-support-wireguard-customer-playout-windows-x64.exe"
+  },
+  "panel_installer": {
+    "file": "multivideo-playout-panel-20260613-remote-support-wireguard-customer-playout-windows-x64-setup.exe",
+    "type": "tauri-nsis",
+    "sha256": "a6c4bae1f3cb3655426c5a00ef8c405a47743a8f2f569210379222e9c95d6652",
+    "size_bytes": 2270247,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-remote-support-wireguard-customer-playout/multivideo-playout-panel-20260613-remote-support-wireguard-customer-playout-windows-x64-setup.exe"
+  },
+  "install": {
+    "type": "windows-service-direct",
+    "command": "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service.",
+    "control_plane_url": "https://license.vorbio.me",
+    "license_required": "true"
+  },
+  "source_manifest_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-remote-support-wireguard-customer-playout/20260613-remote-support-wireguard-customer-playout.json"
+}
