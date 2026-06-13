@@ -1,0 +1,42 @@
+﻿{
+    "schema_version":  "multivideo.playout.release.v1",
+    "product_code":  "PLAYOUT",
+    "product_id":  "multivideoplayout",
+    "product_name":  "Multivideo Playout",
+    "version":  "0.1.17",
+    "release_id":  "20260613-wide-operation-layout-customer-playout",
+    "release_channel":  "stable",
+    "platform":  "windows-x64",
+    "generated_at":  "2026-06-13T17:12:38.1276314Z",
+    "git_commit":  "fb83fcc34045bc5e65bfc77e99618c3f53fb0366",
+    "package_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-wide-operation-layout-customer-playout/multivideo-playout-runtime-20260613-wide-operation-layout-customer-playout-windows-x64.zip",
+    "package_sha256":  "7dd4bfd2735ca85309fd76ea853c29de53cf2e4d0c2e3812f84a63d46e3e0dfe",
+    "archive":  {
+                    "file":  "multivideo-playout-runtime-20260613-wide-operation-layout-customer-playout-windows-x64.zip",
+                    "sha256":  "7dd4bfd2735ca85309fd76ea853c29de53cf2e4d0c2e3812f84a63d46e3e0dfe",
+                    "size_bytes":  14047994,
+                    "type":  "runtime-zip",
+                    "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-wide-operation-layout-customer-playout/multivideo-playout-runtime-20260613-wide-operation-layout-customer-playout-windows-x64.zip"
+                },
+    "installer":  {
+                      "file":  "multivideo-playout-setup-20260613-wide-operation-layout-customer-playout-windows-x64.exe",
+                      "type":  "bootstrap-runtime-panel",
+                      "sha256":  "f329fda3e2a9bc91d418569f888988394ecf1e1ea0f716903f7b350728ff9bef",
+                      "size_bytes":  9089024,
+                      "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-wide-operation-layout-customer-playout/multivideo-playout-setup-20260613-wide-operation-layout-customer-playout-windows-x64.exe"
+                  },
+    "panel_installer":  {
+                            "file":  "multivideo-playout-panel-20260613-wide-operation-layout-customer-playout-windows-x64-setup.exe",
+                            "type":  "tauri-nsis",
+                            "sha256":  "aed1bbea5db222877db8a1ae0a0795524c04ab020dc78094b2114e0a6f75f8a5",
+                            "size_bytes":  2267503,
+                            "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-wide-operation-layout-customer-playout/multivideo-playout-panel-20260613-wide-operation-layout-customer-playout-windows-x64-setup.exe"
+                        },
+    "install":  {
+                    "type":  "windows-service-direct",
+                    "command":  "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service.",
+                    "control_plane_url":  "https://license.vorbio.me",
+                    "license_required":  "true"
+                },
+    "source_manifest_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-wide-operation-layout-customer-playout/20260613-wide-operation-layout-customer-playout.json"
+}

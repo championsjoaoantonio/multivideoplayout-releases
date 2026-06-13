@@ -1,0 +1,9 @@
+﻿Multivideo Playout bundles the WireGuard for Windows installer for dedicated remote support.
+
+The support VPN runs as a dedicated WireGuard tunnel:
+- Tunnel service: WireGuardTunnel$multivideo-support
+- Configuration: C:\ProgramData\Multivideo\Playout\support-vpn
+- Routes: only the Multivideo support VPN subnet, never the customer's default internet route
+
+Bundled installer:
+- support-vpn\wireguard-amd64.msi
