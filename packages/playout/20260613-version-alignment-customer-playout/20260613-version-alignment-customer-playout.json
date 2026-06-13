@@ -1,0 +1,42 @@
+{
+  "schema_version": "multivideo.playout.release.v1",
+  "product_code": "PLAYOUT",
+  "product_id": "multivideoplayout",
+  "product_name": "Multivideo Playout",
+  "version": "0.1.10",
+  "release_id": "20260613-version-alignment-customer-playout",
+  "release_channel": "stable",
+  "platform": "windows-x64",
+  "generated_at": "2026-06-13T02:23:06.3828923Z",
+  "git_commit": "4511996cf535cc8b25bdf04288fd08baee38aab8",
+  "package_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-version-alignment-customer-playout/multivideo-playout-runtime-20260613-version-alignment-customer-playout-windows-x64.zip",
+  "package_sha256": "4bf069e84edc149b1e05c40dc6d6f6208310e3c7f908b4c33a81d77be0438c27",
+  "archive": {
+    "file": "multivideo-playout-runtime-20260613-version-alignment-customer-playout-windows-x64.zip",
+    "sha256": "4bf069e84edc149b1e05c40dc6d6f6208310e3c7f908b4c33a81d77be0438c27",
+    "size_bytes": 11576985,
+    "type": "runtime-zip",
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-version-alignment-customer-playout/multivideo-playout-runtime-20260613-version-alignment-customer-playout-windows-x64.zip"
+  },
+  "installer": {
+    "file": "multivideo-playout-setup-20260613-version-alignment-customer-playout-windows-x64.exe",
+    "type": "bootstrap-runtime-panel",
+    "sha256": "5e188a5a2b75cadf05ed94d2314795f63ae5f002b5bf837d6dfac213810d7dbc",
+    "size_bytes": 8994816,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-version-alignment-customer-playout/multivideo-playout-setup-20260613-version-alignment-customer-playout-windows-x64.exe"
+  },
+  "panel_installer": {
+    "file": "multivideo-playout-panel-20260613-version-alignment-customer-playout-windows-x64-setup.exe",
+    "type": "tauri-nsis",
+    "sha256": "1164ce6ac68f934e2af628e8398e5d793e73a7548916eb6b2ce0b94577809fc6",
+    "size_bytes": 2265362,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-version-alignment-customer-playout/multivideo-playout-panel-20260613-version-alignment-customer-playout-windows-x64-setup.exe"
+  },
+  "install": {
+    "type": "windows-service-direct",
+    "command": "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service.",
+    "control_plane_url": "https://license.vorbio.me",
+    "license_required": "true"
+  },
+  "source_manifest_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-version-alignment-customer-playout/20260613-version-alignment-customer-playout.json"
+}
