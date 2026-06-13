@@ -3,34 +3,34 @@
     "product_code":  "PLAYOUT",
     "product_id":  "multivideoplayout",
     "product_name":  "Multivideo Playout",
-    "version":  "0.1.14",
-    "release_id":  "20260613-updater-resume-hardening-customer-playout",
+    "version":  "0.1.15",
+    "release_id":  "20260613-encoder-card-usage-customer-playout",
     "release_channel":  "stable",
     "platform":  "windows-x64",
-    "generated_at":  "2026-06-13T15:51:28.4357537Z",
-    "git_commit":  "18eeab9ba0b5732cc7acf33a44bf1e114597016b",
-    "package_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-updater-resume-hardening-customer-playout/multivideo-playout-runtime-20260613-updater-resume-hardening-customer-playout-windows-x64.zip",
-    "package_sha256":  "4193900c2f36a7c3b0c3e36d0a893d0bf696c29d0cdc3219d7c3bee4920d54b1",
+    "generated_at":  "2026-06-13T16:46:22.7629797Z",
+    "git_commit":  "d71780b3709bea773da1a8a978f0d87d99b326c4",
+    "package_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-encoder-card-usage-customer-playout/multivideo-playout-runtime-20260613-encoder-card-usage-customer-playout-windows-x64.zip",
+    "package_sha256":  "3ce8466d0bd36aebb9ff18e75c797471bdd0d62d71e36b353a48b6728b64745d",
     "archive":  {
-                    "file":  "multivideo-playout-runtime-20260613-updater-resume-hardening-customer-playout-windows-x64.zip",
-                    "sha256":  "4193900c2f36a7c3b0c3e36d0a893d0bf696c29d0cdc3219d7c3bee4920d54b1",
-                    "size_bytes":  14051352,
+                    "file":  "multivideo-playout-runtime-20260613-encoder-card-usage-customer-playout-windows-x64.zip",
+                    "sha256":  "3ce8466d0bd36aebb9ff18e75c797471bdd0d62d71e36b353a48b6728b64745d",
+                    "size_bytes":  14050808,
                     "type":  "runtime-zip",
-                    "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-updater-resume-hardening-customer-playout/multivideo-playout-runtime-20260613-updater-resume-hardening-customer-playout-windows-x64.zip"
+                    "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-encoder-card-usage-customer-playout/multivideo-playout-runtime-20260613-encoder-card-usage-customer-playout-windows-x64.zip"
                 },
     "installer":  {
-                      "file":  "multivideo-playout-setup-20260613-updater-resume-hardening-customer-playout-windows-x64.exe",
+                      "file":  "multivideo-playout-setup-20260613-encoder-card-usage-customer-playout-windows-x64.exe",
                       "type":  "bootstrap-runtime-panel",
-                      "sha256":  "63777fefe2c8a37aa7f62474a2ffcd6ac041c94545b31f77273d7e26fe53f135",
+                      "sha256":  "a7c22d63ba3e39c50982810e11d82987b3f9b8e2f7aae65331e335c193e16949",
                       "size_bytes":  9084928,
-                      "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-updater-resume-hardening-customer-playout/multivideo-playout-setup-20260613-updater-resume-hardening-customer-playout-windows-x64.exe"
+                      "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-encoder-card-usage-customer-playout/multivideo-playout-setup-20260613-encoder-card-usage-customer-playout-windows-x64.exe"
                   },
     "panel_installer":  {
-                            "file":  "multivideo-playout-panel-20260613-updater-resume-hardening-customer-playout-windows-x64-setup.exe",
+                            "file":  "multivideo-playout-panel-20260613-encoder-card-usage-customer-playout-windows-x64-setup.exe",
                             "type":  "tauri-nsis",
-                            "sha256":  "bb6c73fdcb7feaad33e69fc0497ac2ad2ab69d0bc1028a0c47a93656f2a44b36",
-                            "size_bytes":  2268264,
-                            "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-updater-resume-hardening-customer-playout/multivideo-playout-panel-20260613-updater-resume-hardening-customer-playout-windows-x64-setup.exe"
+                            "sha256":  "f59518b7e0d076be3fcf539b4cdb1a82cc73f0cd2c413110250b815152824931",
+                            "size_bytes":  2267659,
+                            "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-encoder-card-usage-customer-playout/multivideo-playout-panel-20260613-encoder-card-usage-customer-playout-windows-x64-setup.exe"
                         },
     "install":  {
                     "type":  "windows-service-direct",
@@ -38,5 +38,5 @@
                     "control_plane_url":  "https://license.vorbio.me",
                     "license_required":  "true"
                 },
-    "source_manifest_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-updater-resume-hardening-customer-playout/20260613-updater-resume-hardening-customer-playout.json"
+    "source_manifest_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-encoder-card-usage-customer-playout/20260613-encoder-card-usage-customer-playout.json"
 }

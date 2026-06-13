@@ -1,0 +1,42 @@
+﻿{
+    "schema_version":  "multivideo.playout.release.v1",
+    "product_code":  "PLAYOUT",
+    "product_id":  "multivideoplayout",
+    "product_name":  "Multivideo Playout",
+    "version":  "0.1.15",
+    "release_id":  "20260613-encoder-card-usage-customer-playout",
+    "release_channel":  "stable",
+    "platform":  "windows-x64",
+    "generated_at":  "2026-06-13T16:46:22.7629797Z",
+    "git_commit":  "d71780b3709bea773da1a8a978f0d87d99b326c4",
+    "package_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-encoder-card-usage-customer-playout/multivideo-playout-runtime-20260613-encoder-card-usage-customer-playout-windows-x64.zip",
+    "package_sha256":  "3ce8466d0bd36aebb9ff18e75c797471bdd0d62d71e36b353a48b6728b64745d",
+    "archive":  {
+                    "file":  "multivideo-playout-runtime-20260613-encoder-card-usage-customer-playout-windows-x64.zip",
+                    "sha256":  "3ce8466d0bd36aebb9ff18e75c797471bdd0d62d71e36b353a48b6728b64745d",
+                    "size_bytes":  14050808,
+                    "type":  "runtime-zip",
+                    "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-encoder-card-usage-customer-playout/multivideo-playout-runtime-20260613-encoder-card-usage-customer-playout-windows-x64.zip"
+                },
+    "installer":  {
+                      "file":  "multivideo-playout-setup-20260613-encoder-card-usage-customer-playout-windows-x64.exe",
+                      "type":  "bootstrap-runtime-panel",
+                      "sha256":  "a7c22d63ba3e39c50982810e11d82987b3f9b8e2f7aae65331e335c193e16949",
+                      "size_bytes":  9084928,
+                      "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-encoder-card-usage-customer-playout/multivideo-playout-setup-20260613-encoder-card-usage-customer-playout-windows-x64.exe"
+                  },
+    "panel_installer":  {
+                            "file":  "multivideo-playout-panel-20260613-encoder-card-usage-customer-playout-windows-x64-setup.exe",
+                            "type":  "tauri-nsis",
+                            "sha256":  "f59518b7e0d076be3fcf539b4cdb1a82cc73f0cd2c413110250b815152824931",
+                            "size_bytes":  2267659,
+                            "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-encoder-card-usage-customer-playout/multivideo-playout-panel-20260613-encoder-card-usage-customer-playout-windows-x64-setup.exe"
+                        },
+    "install":  {
+                    "type":  "windows-service-direct",
+                    "command":  "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service.",
+                    "control_plane_url":  "https://license.vorbio.me",
+                    "license_required":  "true"
+                },
+    "source_manifest_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-encoder-card-usage-customer-playout/20260613-encoder-card-usage-customer-playout.json"
+}
