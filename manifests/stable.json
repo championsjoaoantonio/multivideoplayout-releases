@@ -3,34 +3,34 @@
     "product_code":  "PLAYOUT",
     "product_id":  "multivideoplayout",
     "product_name":  "Multivideo Playout",
-    "version":  "0.1.12",
-    "release_id":  "20260613-recovery-wireguard-customer-playout",
+    "version":  "0.1.13",
+    "release_id":  "20260613-tmdb-library-enrichment-customer-playout",
     "release_channel":  "stable",
     "platform":  "windows-x64",
-    "generated_at":  "2026-06-13T14:55:04.3296167Z",
-    "git_commit":  "d4c0a01a8e7dab64acd728ce6cf586b914c5c587",
-    "package_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-recovery-wireguard-customer-playout/multivideo-playout-runtime-20260613-recovery-wireguard-customer-playout-windows-x64.zip",
-    "package_sha256":  "cade3e05fc65dab94442772410b8a456973a6bfe4477b78f675e0d1bcf812832",
+    "generated_at":  "2026-06-13T15:38:55.5718442Z",
+    "git_commit":  "025d096f0e9f391d21e41af8a4386770e21af8db",
+    "package_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-tmdb-library-enrichment-customer-playout/multivideo-playout-runtime-20260613-tmdb-library-enrichment-customer-playout-windows-x64.zip",
+    "package_sha256":  "26004d1393dc47ff978a84156cf6bbe53a8964abecca2dba7b3a8e265a6e0f13",
     "archive":  {
-                    "file":  "multivideo-playout-runtime-20260613-recovery-wireguard-customer-playout-windows-x64.zip",
-                    "sha256":  "cade3e05fc65dab94442772410b8a456973a6bfe4477b78f675e0d1bcf812832",
-                    "size_bytes":  14051348,
+                    "file":  "multivideo-playout-runtime-20260613-tmdb-library-enrichment-customer-playout-windows-x64.zip",
+                    "sha256":  "26004d1393dc47ff978a84156cf6bbe53a8964abecca2dba7b3a8e265a6e0f13",
+                    "size_bytes":  14052881,
                     "type":  "runtime-zip",
-                    "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-recovery-wireguard-customer-playout/multivideo-playout-runtime-20260613-recovery-wireguard-customer-playout-windows-x64.zip"
+                    "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-tmdb-library-enrichment-customer-playout/multivideo-playout-runtime-20260613-tmdb-library-enrichment-customer-playout-windows-x64.zip"
                 },
     "installer":  {
-                      "file":  "multivideo-playout-setup-20260613-recovery-wireguard-customer-playout-windows-x64.exe",
+                      "file":  "multivideo-playout-setup-20260613-tmdb-library-enrichment-customer-playout-windows-x64.exe",
                       "type":  "bootstrap-runtime-panel",
-                      "sha256":  "462140738a2b660fb3eb0a0ea1c7106d66146cdf36b8b9efd3395c6731d5b5a5",
+                      "sha256":  "6c1195b50144f095b9134cc240f00d40a4c3dc64da67cbf48d5eb38de9a7c1e7",
                       "size_bytes":  9080832,
-                      "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-recovery-wireguard-customer-playout/multivideo-playout-setup-20260613-recovery-wireguard-customer-playout-windows-x64.exe"
+                      "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-tmdb-library-enrichment-customer-playout/multivideo-playout-setup-20260613-tmdb-library-enrichment-customer-playout-windows-x64.exe"
                   },
     "panel_installer":  {
-                            "file":  "multivideo-playout-panel-20260613-recovery-wireguard-customer-playout-windows-x64-setup.exe",
+                            "file":  "multivideo-playout-panel-20260613-tmdb-library-enrichment-customer-playout-windows-x64-setup.exe",
                             "type":  "tauri-nsis",
-                            "sha256":  "986a54e132107ec2ad2dae1cb092305eaed97075f28e5646ecfcafc8c3b3f589",
-                            "size_bytes":  2266532,
-                            "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-recovery-wireguard-customer-playout/multivideo-playout-panel-20260613-recovery-wireguard-customer-playout-windows-x64-setup.exe"
+                            "sha256":  "0954203d41839fbdf71ede767c422a90fe1f0c494262fb346e7e83d9c816d5d6",
+                            "size_bytes":  2268089,
+                            "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-tmdb-library-enrichment-customer-playout/multivideo-playout-panel-20260613-tmdb-library-enrichment-customer-playout-windows-x64-setup.exe"
                         },
     "install":  {
                     "type":  "windows-service-direct",
@@ -38,5 +38,5 @@
                     "control_plane_url":  "https://license.vorbio.me",
                     "license_required":  "true"
                 },
-    "source_manifest_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-recovery-wireguard-customer-playout/20260613-recovery-wireguard-customer-playout.json"
+    "source_manifest_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-tmdb-library-enrichment-customer-playout/20260613-tmdb-library-enrichment-customer-playout.json"
 }
