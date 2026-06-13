@@ -1,0 +1,42 @@
+{
+  "schema_version": "multivideo.playout.release.v1",
+  "product_code": "PLAYOUT",
+  "product_id": "multivideoplayout",
+  "product_name": "Multivideo Playout",
+  "version": "0.1.19",
+  "release_id": "20260613-remote-support-ttl-customer-playout",
+  "release_channel": "stable",
+  "platform": "windows-x64",
+  "generated_at": "2026-06-13T23:56:19.7783345Z",
+  "git_commit": "041f7e1c562fc75912ac9d4f17a091ef2e170a0c",
+  "package_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-remote-support-ttl-customer-playout/multivideo-playout-runtime-20260613-remote-support-ttl-customer-playout-windows-x64.zip",
+  "package_sha256": "9b8faff7afe7936f041be5d6cc3cc1f86685877b6086456dd253983a50f779e8",
+  "archive": {
+    "file": "multivideo-playout-runtime-20260613-remote-support-ttl-customer-playout-windows-x64.zip",
+    "sha256": "9b8faff7afe7936f041be5d6cc3cc1f86685877b6086456dd253983a50f779e8",
+    "size_bytes": 14573337,
+    "type": "runtime-zip",
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-remote-support-ttl-customer-playout/multivideo-playout-runtime-20260613-remote-support-ttl-customer-playout-windows-x64.zip"
+  },
+  "installer": {
+    "file": "multivideo-playout-setup-20260613-remote-support-ttl-customer-playout-windows-x64.exe",
+    "type": "bootstrap-runtime-panel",
+    "sha256": "47cf723670359185f2d2e74f7fe9c60812c7e6557210e27fa7de9484210f2996",
+    "size_bytes": 9072640,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-remote-support-ttl-customer-playout/multivideo-playout-setup-20260613-remote-support-ttl-customer-playout-windows-x64.exe"
+  },
+  "panel_installer": {
+    "file": "multivideo-playout-panel-20260613-remote-support-ttl-customer-playout-windows-x64-setup.exe",
+    "type": "tauri-nsis",
+    "sha256": "bfa1c21860315091c5a00d73027e814c860e9df045968b9dd0a8603e696fd8c5",
+    "size_bytes": 2268663,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-remote-support-ttl-customer-playout/multivideo-playout-panel-20260613-remote-support-ttl-customer-playout-windows-x64-setup.exe"
+  },
+  "install": {
+    "type": "windows-service-direct",
+    "command": "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service.",
+    "control_plane_url": "https://license.vorbio.me",
+    "license_required": "true"
+  },
+  "source_manifest_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-remote-support-ttl-customer-playout/20260613-remote-support-ttl-customer-playout.json"
+}
