@@ -1,0 +1,42 @@
+{
+  "schema_version": "multivideo.playout.release.v1",
+  "product_code": "PLAYOUT",
+  "product_id": "multivideoplayout",
+  "product_name": "Multivideo Playout",
+  "version": "0.1.9",
+  "release_id": "20260613-migration-recovery-customer-playout",
+  "release_channel": "stable",
+  "platform": "windows-x64",
+  "generated_at": "2026-06-13T02:06:18.7730087Z",
+  "git_commit": "1daed1ddc7cc8c5a625b61d7ed6e7d31f4282d11",
+  "package_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-migration-recovery-customer-playout/multivideo-playout-runtime-20260613-migration-recovery-customer-playout-windows-x64.zip",
+  "package_sha256": "69e1ef2d24dff96e9041831292737e8fe2ee56bed478368e9a75d417ffc24591",
+  "archive": {
+    "file": "multivideo-playout-runtime-20260613-migration-recovery-customer-playout-windows-x64.zip",
+    "sha256": "69e1ef2d24dff96e9041831292737e8fe2ee56bed478368e9a75d417ffc24591",
+    "size_bytes": 11585850,
+    "type": "runtime-zip",
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-migration-recovery-customer-playout/multivideo-playout-runtime-20260613-migration-recovery-customer-playout-windows-x64.zip"
+  },
+  "installer": {
+    "file": "multivideo-playout-setup-20260613-migration-recovery-customer-playout-windows-x64.exe",
+    "type": "bootstrap-runtime-panel",
+    "sha256": "6a7ceebe19083741408c0c9ffb22b8064c21606038269005ecf3b497f17be2d9",
+    "size_bytes": 8998912,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-migration-recovery-customer-playout/multivideo-playout-setup-20260613-migration-recovery-customer-playout-windows-x64.exe"
+  },
+  "panel_installer": {
+    "file": "multivideo-playout-panel-20260613-migration-recovery-customer-playout-windows-x64-setup.exe",
+    "type": "tauri-nsis",
+    "sha256": "cde91f8a50853dd360157b2272b5177a41f1efbb910b90a138e273764b281c18",
+    "size_bytes": 2264939,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-migration-recovery-customer-playout/multivideo-playout-panel-20260613-migration-recovery-customer-playout-windows-x64-setup.exe"
+  },
+  "install": {
+    "type": "windows-service-direct",
+    "command": "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service.",
+    "control_plane_url": "https://license.vorbio.me",
+    "license_required": "true"
+  },
+  "source_manifest_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-migration-recovery-customer-playout/20260613-migration-recovery-customer-playout.json"
+}
