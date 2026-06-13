@@ -1,0 +1,42 @@
+﻿{
+    "schema_version":  "multivideo.playout.release.v1",
+    "product_code":  "PLAYOUT",
+    "product_id":  "multivideoplayout",
+    "product_name":  "Multivideo Playout",
+    "version":  "0.1.18",
+    "release_id":  "20260613-panel-health-polling-customer-playout",
+    "release_channel":  "stable",
+    "platform":  "windows-x64",
+    "generated_at":  "2026-06-13T17:28:42.4268052Z",
+    "git_commit":  "35729c1e1f80c6e8089dcb8594f9f43d35270fc7",
+    "package_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-panel-health-polling-customer-playout/multivideo-playout-runtime-20260613-panel-health-polling-customer-playout-windows-x64.zip",
+    "package_sha256":  "941aefa532ea777103f09d6c020bd87eba0322c7579521d460c483695249aa98",
+    "archive":  {
+                    "file":  "multivideo-playout-runtime-20260613-panel-health-polling-customer-playout-windows-x64.zip",
+                    "sha256":  "941aefa532ea777103f09d6c020bd87eba0322c7579521d460c483695249aa98",
+                    "size_bytes":  14048768,
+                    "type":  "runtime-zip",
+                    "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-panel-health-polling-customer-playout/multivideo-playout-runtime-20260613-panel-health-polling-customer-playout-windows-x64.zip"
+                },
+    "installer":  {
+                      "file":  "multivideo-playout-setup-20260613-panel-health-polling-customer-playout-windows-x64.exe",
+                      "type":  "bootstrap-runtime-panel",
+                      "sha256":  "f7fadeb9ac882265348d0c029340b528e6861ef580f78c5839262017a0a1b4aa",
+                      "size_bytes":  9084928,
+                      "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-panel-health-polling-customer-playout/multivideo-playout-setup-20260613-panel-health-polling-customer-playout-windows-x64.exe"
+                  },
+    "panel_installer":  {
+                            "file":  "multivideo-playout-panel-20260613-panel-health-polling-customer-playout-windows-x64-setup.exe",
+                            "type":  "tauri-nsis",
+                            "sha256":  "c6f46f80c70e5d37a39edb543a5a6785f9ee957c1899c6ce85c6a887f14d19f7",
+                            "size_bytes":  2269136,
+                            "url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-panel-health-polling-customer-playout/multivideo-playout-panel-20260613-panel-health-polling-customer-playout-windows-x64-setup.exe"
+                        },
+    "install":  {
+                    "type":  "windows-service-direct",
+                    "command":  "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service.",
+                    "control_plane_url":  "https://license.vorbio.me",
+                    "license_required":  "true"
+                },
+    "source_manifest_url":  "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-panel-health-polling-customer-playout/20260613-panel-health-polling-customer-playout.json"
+}
