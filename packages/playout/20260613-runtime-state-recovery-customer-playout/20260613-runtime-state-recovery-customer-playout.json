@@ -1,0 +1,42 @@
+{
+  "schema_version": "multivideo.playout.release.v1",
+  "product_code": "PLAYOUT",
+  "product_id": "multivideoplayout",
+  "product_name": "Multivideo Playout",
+  "version": "0.1.8",
+  "release_id": "20260613-runtime-state-recovery-customer-playout",
+  "release_channel": "stable",
+  "platform": "windows-x64",
+  "generated_at": "2026-06-13T01:51:23.3449950Z",
+  "git_commit": "6b40b8e59682a886e6443cdfdfa6dfa3f4f63896",
+  "package_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-runtime-state-recovery-customer-playout/multivideo-playout-runtime-20260613-runtime-state-recovery-customer-playout-windows-x64.zip",
+  "package_sha256": "31cb565c31fe13e91c704ac3f83c179521cdff7765e6792f69d160970cd8e5d0",
+  "archive": {
+    "file": "multivideo-playout-runtime-20260613-runtime-state-recovery-customer-playout-windows-x64.zip",
+    "sha256": "31cb565c31fe13e91c704ac3f83c179521cdff7765e6792f69d160970cd8e5d0",
+    "size_bytes": 11578756,
+    "type": "runtime-zip",
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-runtime-state-recovery-customer-playout/multivideo-playout-runtime-20260613-runtime-state-recovery-customer-playout-windows-x64.zip"
+  },
+  "installer": {
+    "file": "multivideo-playout-setup-20260613-runtime-state-recovery-customer-playout-windows-x64.exe",
+    "type": "bootstrap-runtime-panel",
+    "sha256": "8aedb2f745a910019b782903015bb0f98ce8d9a8c7e2ddf4135e591ba5354598",
+    "size_bytes": 8994816,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-runtime-state-recovery-customer-playout/multivideo-playout-setup-20260613-runtime-state-recovery-customer-playout-windows-x64.exe"
+  },
+  "panel_installer": {
+    "file": "multivideo-playout-panel-20260613-runtime-state-recovery-customer-playout-windows-x64-setup.exe",
+    "type": "tauri-nsis",
+    "sha256": "377844dce09ef1ca499b253f948f9736108b330fa00ec2c1197814e8c1365a71",
+    "size_bytes": 2263941,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-runtime-state-recovery-customer-playout/multivideo-playout-panel-20260613-runtime-state-recovery-customer-playout-windows-x64-setup.exe"
+  },
+  "install": {
+    "type": "windows-service-direct",
+    "command": "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service.",
+    "control_plane_url": "https://license.vorbio.me",
+    "license_required": "true"
+  },
+  "source_manifest_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260613-runtime-state-recovery-customer-playout/20260613-runtime-state-recovery-customer-playout.json"
+}
