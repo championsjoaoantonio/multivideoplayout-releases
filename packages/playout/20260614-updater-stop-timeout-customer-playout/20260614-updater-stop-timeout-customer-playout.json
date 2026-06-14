@@ -1,0 +1,42 @@
+{
+  "schema_version": "multivideo.playout.release.v1",
+  "product_code": "PLAYOUT",
+  "product_id": "multivideoplayout",
+  "product_name": "Multivideo Playout",
+  "version": "0.1.20",
+  "release_id": "20260614-updater-stop-timeout-customer-playout",
+  "release_channel": "stable",
+  "platform": "windows-x64",
+  "generated_at": "2026-06-14T00:16:32.8168448Z",
+  "git_commit": "f06fc1032026faddd663e80ac141002d245369fc",
+  "package_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260614-updater-stop-timeout-customer-playout/multivideo-playout-runtime-20260614-updater-stop-timeout-customer-playout-windows-x64.zip",
+  "package_sha256": "333a4b9309890078d61967ba79249bc1c02ba5ce338d219f5b0e93aa36b3a612",
+  "archive": {
+    "file": "multivideo-playout-runtime-20260614-updater-stop-timeout-customer-playout-windows-x64.zip",
+    "sha256": "333a4b9309890078d61967ba79249bc1c02ba5ce338d219f5b0e93aa36b3a612",
+    "size_bytes": 14575790,
+    "type": "runtime-zip",
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260614-updater-stop-timeout-customer-playout/multivideo-playout-runtime-20260614-updater-stop-timeout-customer-playout-windows-x64.zip"
+  },
+  "installer": {
+    "file": "multivideo-playout-setup-20260614-updater-stop-timeout-customer-playout-windows-x64.exe",
+    "type": "bootstrap-runtime-panel",
+    "sha256": "9147608e6f56625fea55f25c51d689ec10d0725ffc42623aad993337b11bc9ec",
+    "size_bytes": 9068544,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260614-updater-stop-timeout-customer-playout/multivideo-playout-setup-20260614-updater-stop-timeout-customer-playout-windows-x64.exe"
+  },
+  "panel_installer": {
+    "file": "multivideo-playout-panel-20260614-updater-stop-timeout-customer-playout-windows-x64-setup.exe",
+    "type": "tauri-nsis",
+    "sha256": "9f469d505a3e47b8f7e4dcf1b6eae36f7a96aaf0e7a5d9f1ea932afac08624ac",
+    "size_bytes": 2269837,
+    "url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260614-updater-stop-timeout-customer-playout/multivideo-playout-panel-20260614-updater-stop-timeout-customer-playout-windows-x64-setup.exe"
+  },
+  "install": {
+    "type": "windows-service-direct",
+    "command": "Playout downloads the runtime zip, validates SHA256, stops MultivideoPlayoutRuntime, backs up InstallDir, copies runtime and panel binaries, refreshes Windows shortcuts and restarts the service.",
+    "control_plane_url": "https://license.vorbio.me",
+    "license_required": "true"
+  },
+  "source_manifest_url": "https://raw.githubusercontent.com/championsjoaoantonio/multivideoplayout-releases/main/packages/playout/20260614-updater-stop-timeout-customer-playout/20260614-updater-stop-timeout-customer-playout.json"
+}
